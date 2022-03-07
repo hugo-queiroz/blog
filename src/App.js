@@ -1,6 +1,12 @@
+import Header from './components/Header';
+import Articles from './components/Articles';
+import Posts from './components/Posts';
+
 function App() {
   return (
-    <h1>Meu Blog</h1>
+    <>
+      <Header />
+    </>
   );
 }
 
