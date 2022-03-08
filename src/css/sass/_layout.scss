@@ -1,80 +1,70 @@
-header{
+header  {
     max-width: 1200px;
-
     margin: 0 auto;
-
     padding: 8px 24px;
 }
 
-a{
+a  {
     text-decoration: none;
     color: $white-dark;
 }
 
 
-.flex{
+.flex {
     display: flex;
 }
 
-.flex-space-between{
+.flex-space-between {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.container{
+.container {
     max-width: 1200px;
-
     margin: 0 auto;
     padding: 8px 24px;
 }
 
-.border{
+.border {
     border: 1px solid red;
 }
 
-.menu{
+.menu {
     list-style: none;
     display: flex;
-
-    li{
+    li {
         margin-left: 24px;
     }
 }
 
-.nav-link{
+.nav-link {
     display: inline-block;
-
     padding: 8px;
-
     transition: .5s ease;
-
-    &:hover{
+    &:hover {
         opacity: .7;
     }
 }
 
-.input-search{
+.input-search {
     height: 40px;
     min-width: 300px;
-
     background-color: $black-light;
-
     border: 0;
     border-radius: 4px;
-
     color: $white-light;
     padding: 8px;
 }
 
-.img-profile{
+.img-profile {
     width: 56px;
     height: 56px;
     background-color: $gray-2;
     border-radius: 50%;
 }
 
-.container-posts{
+.container-posts {
     display: flex;
 
 }
